@@ -18,14 +18,15 @@ public class KData implements Serializable {
     private Date timestamp;
     private String securityId;
     private String code;
+    private String type;
+    //级别，1,5,15,30,60,DAY,WEEK,MONTH
+    private String level;
+    private float fuquan;
+
     private float open;
     private float close;
     private float high;
     private float low;
     private float volume;
     private float turnover;
-    private String type;
-    //级别，1,5,15,30,60,DAY,WEEK,MONTH
-    private String level;
-    private float fuquan;
 }
